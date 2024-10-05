@@ -1,0 +1,301 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	
+}
+
+.seven h1 {
+text-align: center;
+    font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+
+}
+
+.seven h1:after,.seven h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+
+
+
+
+
+
+
+
+.header{
+	width: 100%;
+	min-height: 100vh; 
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(8001.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 18px 8%;
+	transition: 1s
+}
+
+nav .logo{
+	display: flex;
+	align-items: center;
+	font-size: 26px;
+	font-weight: 600;
+	color: #fff;
+}
+
+nav .logo img{
+	width: 160px;
+	margin-right: 10px;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+	
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	font-family: 'Chau Philomene One', sans-serif;
+
+}
+
+nav:hover{
+	background: #fff;
+}
+nav:hover .logo{
+	color: #333;
+}
+nav:hover ul li a{
+	color: #333;
+}
+
+
+.text-box{
+	width: 98%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.text-box h1 {
+	font-family: 'Chela One', cursive;
+	font-size: 80px;
+}
+.text-box p {
+	font-size: 22px;
+	margin: 10px 0 40px;
+	color: #fff;
+	font-family: 'BenchNine', sans-serif;
+
+}
+
+.hero-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border:1px solid #fff;
+	padding: 12px 34px;
+	font-size: 17.5px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	font-family: 'Concert One', cursive;
+
+}
+.hero-btn:hover{
+	border: 1px solid #f44336;
+	background: #f44336;
+	transition: 1s;
+}
+
+
+
+
+
+.wrapper {
+  
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+
+  width: 50ch;
+  animation: typing 2s steps(30), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  0% {
+    border-color: transparent
+  }
+}
+
+
+
+#clickgo h2 {
+
+text-align: center;
+border-image: linear-gradient(to bottom, turquoise, greenyellow) 0 1;
+
+
+}
+#clickgo {
+	
+}
+
+
+.back{
+	width: 100%;
+	min-height: 100vh; 
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(9ar.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.minidu {
+	
+
+}
+
+#gavesh h2 {
+	color: black;
+	text-align: center;
+	
+	font-family: 'Chau Philomene One', sans-serif;
+
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
+.card {
+	background: white;
+	width: 270px;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+
+.card-image {
+
+	height: 225px;
+	margin-bottom: 15px;
+	background-size: cover;
+	border-radius: 15px 15px 0 0;
+}
+
+.car-1{
+	background-image: url(11.jpg);
+}
+
+.car-2{
+	background-image: url(3.jpg);
+}
+
+.car-3{
+	background-image: url(1311.jpg);
+}
+
+.car-4{
+	background-image: url(14.jpg);
+}
+
+.car-5{
+	background-image: url(15.jpg);
+}
+
+.car-6{
+	background-image: url(16.jpg);
+}
+
+.car-7{
+	background-image: url(18.jpg);
+}
+
+.car-8{
+	background-image: url(19.jpg);
+}
+
+.car-9{
+	background-image: url(21.jpg);
+}
+
+
+.card a {
+
+	background-color: transparent;
+	color: black;
+		border:1px solid black;
+	padding: 15px 5px;
+	display: block;
+	text-align: center;
+	margin: 30px 60px;
+	
+	font-family: 'Bree Serif', serif;
+}
+
+.card a:hover{
+		border: 1px solid #f44336;
+	background: white;
+	transition: 1s;
+}
+
+.card:hover{
+	background-color: #80cdfb;
+	color: white;
+	cursor: pointer;
+	transform: scale(1.03);
+}
+
+
+
+.mada {
+	background-color: black;
+	width: 100%;
+	height: 2%;
+
+}
+
